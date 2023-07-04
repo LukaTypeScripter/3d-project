@@ -6,7 +6,7 @@ import {  OrbitControls, Preload, SpotLight, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Computers = ({isMobile}) => {
-  const computer = useGLTF('../../../public/desktop_pc/scene.gltf');
+  const computer = useGLTF('../../../dist/desktop_pc/scene.gltf');
   return (
     <mesh>
       <hemisphereLight intensity={0.15} />
